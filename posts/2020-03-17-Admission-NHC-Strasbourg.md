@@ -1,8 +1,8 @@
 ---
 layout: post
-title: New feature
-excerpt: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur.
-author: Chris
+title: Admission en urgence au NHC de Strasbourg
+excerpt: Prise de sang faite à 11h sur demande du néphrologue, résultats à 15h et envoi d'urgence
+author: Admin
 ---
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
