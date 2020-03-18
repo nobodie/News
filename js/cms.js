@@ -218,7 +218,8 @@ var CMS = (function () {
    */
 
   function getDatetime(dateStr) {
-    var dt = new Date(dateStr);
+    //var dt = new Date(dateStr);
+	var dt = new Date("2020-01-01 15:05");
     return new Date(dt.getTime() - dt.getTimezoneOffset() * -60000);
   }
 
@@ -527,6 +528,7 @@ var CMS = (function () {
           this.datetime = getDatetime(this.date);
           this.date = this.config.dateFormat(this.datetime);
         } else if (dateRegEx.test(this.url)) {
+		  alert(this.date)
           this.date = dateRegEx.exec(this.url);
           this.datetime = getDatetime(this.date);
           this.date = this.config.dateFormat(this.datetime);
