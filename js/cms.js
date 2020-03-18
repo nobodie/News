@@ -532,6 +532,7 @@ var CMS = (function () {
         } else if (dateRegEx.test(this.url)) {
           this.date = dateRegEx.exec(this.url);
           this.datetime = getDatetime(this.date);
+		  alert(this.datetime);
           this.date = this.config.dateFormat(this.datetime);
         }
       }
