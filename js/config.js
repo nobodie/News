@@ -14,9 +14,9 @@ var config = {
     username: 'nobodie',
     repo: 'News',
     branch: 'master',
-    host: 'https://nobodie.github.io/News/',
+    host: 'https://api.github.com/',
     // Use prefix option if your site is located in a subdirectory.
-    // prefix: 'News/',
+    prefix: 'News/',
   },
 
   // The name of the layouts directory.
