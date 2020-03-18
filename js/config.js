@@ -14,7 +14,7 @@ var config = {
     username: 'nobodie',
     repo: 'News',
     branch: 'master',
-    host: 'https://api.github.com/',
+    host: 'https://api.github.com',
     // Use prefix option if your site is located in a subdirectory.
     //prefix: 'News/',
   },
