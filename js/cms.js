@@ -36,7 +36,7 @@ var CMS = (function () {
     plugins: [],
     frontMatterSeperator: /^---$/m,
     listAttributes: ['tags'],
-    dateParser: /\d{4}-\d{2}-\d{2}-\d{2}-\d{2}?/,
+    dateParser: /\d{4}-\d{2}-\d{2}-\d{2}-\d{2}/,
     dateFormat: function dateFormat(date) {
       return [date.getDate(), date.getMonth() + 1, date.getFullYear()].join('/') + " à " + [date.getHours(), date.getMinutes()].join(':');
     },
