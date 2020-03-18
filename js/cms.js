@@ -38,7 +38,8 @@ var CMS = (function () {
     listAttributes: ['tags'],
     dateParser: /\d{4}-\d{2}-\d{2}-\d{2}-\d{2}/,
     dateFormat: function dateFormat(date) {
-      return [date.getDate(), date.getMonth() + 1, date.getFullYear()].join('/') + " à " + [date.getHours(), date.getMinutes()].join(':');
+	  var r = [date.getDate(), date.getMonth() + 1, date.getFullYear()].join('/') + " à " + [date.getHours(), date.getMinutes()].join(':')
+      return r;
     },
     extension: '.md',
     sort: undefined,
@@ -218,7 +219,6 @@ var CMS = (function () {
    */
 
   function getDatetime(dateStr) {
-	alert(dateStr);
 	var spl = dateStr.split('-');
 	var dt = new Date(spl[0], spl[1], spl[2], spl[3], spl[4]);
     return new Date(dt.getTime() - dt.getTimezoneOffset() * -60000);
