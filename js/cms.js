@@ -529,7 +529,6 @@ var CMS = (function () {
           this.datetime = getDatetime(this.date);
           this.date = this.config.dateFormat(this.datetime);
         } else if (dateRegEx.test(this.url)) {
-		  alert(this.date)
           this.date = dateRegEx.exec(this.url);
           this.datetime = getDatetime(this.date);
           this.date = this.config.dateFormat(this.datetime);
