@@ -219,7 +219,8 @@ var CMS = (function () {
 
   function getDatetime(dateStr) {
     //var dt = new Date(dateStr);
-	var dt = new Date("2020-01-01 15:05");
+	var spl = dateStr.split('-');
+	var dt = new Date(spl[0], spl[1], spl[2], spl[3], spl[4]);
     return new Date(dt.getTime() - dt.getTimezoneOffset() * -60000);
   }
 
